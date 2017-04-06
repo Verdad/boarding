@@ -1,3 +1,4 @@
+require 'spaceship'
 class InviteController < ApplicationController
   before_action :set_app_details
   before_action :check_disabled_text
